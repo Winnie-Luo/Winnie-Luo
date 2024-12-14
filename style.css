@@ -1,16 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html, body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;  /* 防止出现滚动条 */
 }
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-color: #f0f0f0;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 canvas {
-    display: block;
+    display: block;  /* 移除画布底部的空隙 */
 }
