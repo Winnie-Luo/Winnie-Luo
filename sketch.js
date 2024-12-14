@@ -1,7 +1,7 @@
 // 定义全局变量
 let flowers = [];
 let flowerSize = 1;
-
+  
 class Flower {
     constructor(x, y) {
         this.x = x;
